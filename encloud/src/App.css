@@ -1,0 +1,290 @@
+
+/* HEADER */
+
+.App {
+  text-align: center;
+}
+
+#App-header {
+  background-color: #ffffff;
+  height: 115px;
+  padding: 20px;
+  color: white;
+}
+
+#App-logo {
+  height: 115px;
+  margin-top: -20px;
+  background-color: white;
+  border: solid slategrey thin;
+  border-bottom: none;
+  border-top: none;
+}
+
+#App-logo:focus {
+  /*border: solid slategrey thin;*/
+}
+
+#nav-item-header {
+  font-size: 1.6em;
+  color: slategrey;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  height: 115px;
+  padding-top: 48px;
+  margin-top: -20px;
+  width: 120px;
+}
+
+#nav-item-header:hover {
+  color: lightblue;
+}
+
+#nav-item-header:focus {
+  color: lightblue;
+}
+
+/* INTRO */
+
+a {
+  text-decoration: none;
+  font-style: inherit;
+  color: inherit;
+}
+
+a:link, a:visited {
+  border: none;
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  /*background-color: transparent;*/
+}
+
+a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+
+#intro {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: aliceblue;
+  background-image: url("back3.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 97vh;
+}
+
+#intro-container {
+  margin-top: 20vh;
+  text-decoration: none;
+}
+
+#intro-title {
+  margin-bottom: 150px;
+  font-size: 4em;
+}
+
+#intro-links {
+  margin-top: -5%;
+}
+
+#intro-link {
+  text-decoration: none;
+}
+
+#intro-message {
+  margin-top: 5%;
+  font-size: 1.5em;
+}
+
+#color-white {
+  color: white;
+  text-decoration: none;
+}
+
+/* MOBILE */
+
+#mobile-jumbotron {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: aliceblue;
+  background-image: url("back4.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 60vh;
+}
+
+#mobile {
+  height: 70vh;
+  background-color: #F7F7F7;
+  margin-top: -30px;
+}
+
+#mobile-container {
+  margin-top: 20vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: slategrey;
+}
+
+#mobile-head {
+  color: slategrey;
+}
+
+#mobile-message {
+  margin-top: 10vh;
+  /*width: 80vw;*/
+  font-size: 1.5em;
+  color: slategrey;
+}
+
+/* CLOUD */
+
+#cloud {
+  height: 70vh;
+  background-color: #F7F7F7;
+  margin-top: -30px;
+}
+
+#cloud-container {
+  margin-top: 20vh;
+  color: slategrey;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#cloud-message {
+  margin-top: 10vh;
+  font-size: 1.5em;
+  color: slategrey;
+}
+
+#cloud-jumbotron {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: aliceblue;
+  background-image: url("back5.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 60vh;
+}
+
+/* WEB */
+
+#web {
+  height: 70vh;
+  background-color: #F7F7F7;
+  margin-top: -30px;
+}
+
+#web-container {
+  margin-top: 20vh;
+  color: slategrey;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#web-message {
+  margin-top: 10vh;
+  font-size: 1.5em;
+  color: slategrey;
+}
+
+#web-jumbotron {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: aliceblue;
+  background-image: url("back7.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 60vh;
+}
+
+/* CONTACT */
+
+#contact {
+  height: 100vh;
+  background-color: #F7F7F7;
+  margin-top: -15vh;
+  border-bottom: solid slategrey thin;
+}
+
+#contact-title {
+  margin-top: 10vh;
+  /*background-color: lightgrey;*/
+  height: 40vh;
+  /*width: 100vw;*/
+  /*margin-left: -320px;*/
+}
+
+#cloud-devices {
+  width: 200px;
+  height: auto;
+  margin-top: 15vh;
+}
+
+#contact-head {
+  margin-top: 20vh;
+  /*width: 700px;*/
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /*margin-left: 320px;*/
+}
+
+#contact-container {
+  margin-top: 2vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#control-label {
+  float: left;
+}
+
+#firstName {
+  width: 400px;
+}
+
+#lastName {
+  width: 400px;
+}
+
+#email {
+  width: 400px;
+}
+
+#textarea-input {
+  border: solid lightgrey thin;
+}
+
+#submit-button {
+  font-weight: normal!important;
+}
+
+/* FOOTER */
+
+#contact-footer {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  font-size: 1em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#contact-footer-addy {
+  margin-top: -1vh;
+}
